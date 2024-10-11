@@ -1,0 +1,48 @@
+.inscrit{
+    background-image: url(../public_html/assets/imgs/triangles.png);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding: 0;
+    margin: 0;
+}
+
+.formContainer{
+  position: relative;
+  border-radius: 10px;
+top: 70%;
+background-color: aqua;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 40%;
+text-align: center;
+color: black;
+border: 2;
+}
+
+.formContainer h1{
+  text-align: center;
+  color: green;
+}
+
+.formContainer label{
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+  font-size: large ;
+  font-weight: 800;
+}
+.formContainer input{
+  border-radius: 10px;
+
+}
+.foterdiv{
+  margin-top: 17%;
+  position: relative;
+ margin-bottom: 1px;
+}
+.navbarBTN :hover{
+  background-color: #FFF !important;
+  font-weight: 400 !important;
+  border-radius: 15px !important;
+}
